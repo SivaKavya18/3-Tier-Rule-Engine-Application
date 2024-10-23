@@ -1,0 +1,58 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rule Engine UI</title>
+  <link rel="stylesheet" href="/static/styles.css?v=1.0">
+</head>
+<body>
+  <h1>Rule Engine</h1>
+
+  <!-- Create Rule Form -->
+  <section>
+    <h2>Create Rule</h2>
+    <form id="createRuleForm">
+      <input type="text" id="CreateRuleName" placeholder="Enter rule name" required>
+      <input type="text" id="ruleString" placeholder="Enter rule string" required>
+      <button type="submit">Create Rule</button>
+    </form>
+    <p id="createRuleResponse"></p>
+  </section>
+
+  <!-- Evaluate Rule Form -->
+  <section>
+    <h2>Evaluate Rule</h2>
+    <form id="evaluateRuleForm">
+      <input type="text" id="ruleName" placeholder="Enter Rule Name" required>
+      <textarea id="ruleData" placeholder='{"age": 35, "department": "Sales", "salary": 60000, "experience": 3}' required></textarea>
+      <button type="submit">Evaluate Rule</button>
+    </form>
+    <p id="evaluateRuleResponse"></p>
+  </section>
+
+  <!-- Combine Rule Form -->
+  <section>
+    <h2>Combine Rules</h2>
+    <form id="CombineRuleForm">
+      <input type="text" id="RuleNameForCombined" placeholder="Enter rule name" required>
+      <textarea id="ruleStrings" placeholder='{"age": 35, "department": "Sales", "salary": 60000, "experience": 3}' required></textarea>
+      <button type="submit">Combine Rules</button>
+    </form>
+    <p id="CombineRuleResponse"></p>
+  </section>
+
+  <!-- Update Rule Form -->
+  <section>
+    <h2>Update Rules</h2>
+    <form id="updateRuleForm">
+      <input type="text" id="ruleNameToUpdate" placeholder="Enter rule name" required>
+      <textarea id="ruleStringUpdate" placeholder='{"age": 35, "department": "Sales", "salary": 60000, "experience": 3}' required></textarea>
+      <button type="submit">Update Rules</button>
+    </form>
+    <p id="UpdateRuleResponse"></p>
+  </section>
+
+  <script src="/static/script.js?v=1.0"></script>
+</body>
+</html>
