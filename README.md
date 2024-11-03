@@ -22,7 +22,7 @@ sqlite3
 ## Installation
 #### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/rule-engine-app.git
+git clone https://github.com//SivaKavya18/3-Tier-Rule-Engine-Application.git
 cd rule-engine-app
 ```
 
