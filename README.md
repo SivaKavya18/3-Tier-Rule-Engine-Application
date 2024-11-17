@@ -11,7 +11,9 @@ Update Rules: Rule strings can be updated by thier corresponding names
 ## Prerequisites
 Before running the application, ensure you have the following dependencies installed:
 Python 3.x
+
 Flask: For building the web API.
+
 SQLite3: For storing rules and metadata.
 
 ## Dependencies
